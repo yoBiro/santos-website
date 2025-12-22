@@ -3,9 +3,9 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: "Instrumental Sans", "Geist", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-mono: "Geist Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono",
-      "Courier New", monospace;
+  --font-sans-serif: "Geist", system-ui, sans-serif;
+  --font-sans: "Instrumental Sans", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
     --color-red-400: oklch(70.4% 0.191 22.216);
     --color-green-400: oklch(79.2% 0.209 151.711);
     --color-green-500: oklch(72.3% 0.219 149.579);
@@ -233,28 +233,9 @@
   }
 }
 /* em src/output.css */
-@font-face {
-  font-family: "Geist";
-  src: url("https://fonts.googleapis.com/css?family=Geist:100,200,300,regular,500,600,700,800,900");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Geist Mono";
-  src: url("https://fonts.googleapis.com/css?family=Geist+Mono:100,200,300,regular,500,600,700,800,900");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Instrumental Sans";
-  src: url("https://fonts.googleapis.com/css?family=Instrument+Sans:regular,500,600,700,italic,500italic,600italic,700italic");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
-  --font-sans: "Instrumental Sans", "Geist", system-ui, sans-serif;
+  --font-sans-serif: "Geist", system-ui, sans-serif;
+  --font-sans: "Instrumental Sans", system-ui, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, monospace;
 }

@@ -1,2 +1,34 @@
 @import "tailwindcss";
 @import "./global.css";
+@import "./fonts.css";
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('/assets/fonts/InstrumentSans-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: 'Geist';
+    src: url('/assets/fonts/Geist-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('/assets/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+    }
+
+:root, :host {
+    --font-sans-serif: "Geist", system-ui, sans-serif;
+    --font-sans: "Instrumental Sans", system-ui, sans-serif;
+    --font-mono: "Geist Mono", ui-monospace, monospace;
+}
+
