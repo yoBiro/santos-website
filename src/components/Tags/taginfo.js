@@ -5,7 +5,15 @@ class TagInfo extends HTMLElement {
 
         this.innerHTML = `
             <div class="pt-4">
-                <div class="border border-neutral-900/10 rounded-[3rem] p-2 px-4 mb-6 w-fit flex flex-row items-center gap-8 bg-neutral-50">
+                <div class="border 
+                border-neutral-900/10 
+                rounded-[3rem] 
+                p-2 
+                px-4
+                mb-6 
+                w-fit 
+                flex flex-row 
+                items-center gap-8 bg-neutral-50 hover:translate-1.5 duration-500">
                     ${src ? `<img src="${src}" class="w-5 h-5">` : ''}
                     <p class="text-sm text-neutral-800 font-medium">${label}</p>
                 </div>

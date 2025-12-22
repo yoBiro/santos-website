@@ -232,10 +232,4 @@
     }
   }
 }
-/* em src/output.css */
-@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
-:root {
-  --font-sans-serif: "Geist", system-ui, sans-serif;
-  --font-sans: "Instrumental Sans", system-ui, sans-serif;
-  --font-mono: "Geist Mono", ui-monospace, monospace;
-}
+/* font declarations are centralized in src/styles/global.css */
