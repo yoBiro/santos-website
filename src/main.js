@@ -3,6 +3,7 @@ import './components/Tags/taginfo.js';
 import './components/Cards/cardstack.js';
 import './components/Buttons/primarybutton.js';
 import './components/Buttons/secondarybutton.js';
+import './components/Cards/cardimage.js';
 
 
 // Page load animations

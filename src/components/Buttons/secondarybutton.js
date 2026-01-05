@@ -4,7 +4,7 @@ class SecondaryButton extends HTMLElement {
         const src = this.getAttribute('icon-src');
 
         this.innerHTML = `
-            <button class="group relative overflow-hidden rounded-full border-black border-2 bg-white px-7 py-3 text-black transition-all duration-200
+            <button class="group relative overflow-hidden rounded-full border-black border bg-white px-7 py-3 text-black transition-all duration-200
             group-hover:drop-shadow-2xl gap-3 flex flex-row h-fit w-fit">
             <span
             class="font-mono flex flex-row gap-3 transition-all duration-200 group-hover:opacity-0 group-hover:translate-x-6"

@@ -17,7 +17,7 @@ class CardStack extends HTMLElement {
                     </div>
                         <div class="flex flex-col gap-8">
                                 <strong class="text-[1.5rem]">Stack</strong>
-                                <div class="grid grid-cols-3 grid-rows-2 gap-6">
+                                <div class="grid grid-cols-3 grid-rows-2 gap-6 flex-wrap">
                                     <app-stack label="Java" icon-src="/src/assets/Icons/Stack/java.svg"></app-stack>
                                     <app-stack label="TypeScript" icon-src="/src/assets/Icons/Stack/typescript.svg"></app-stack>
                                     <app-stack label="Linux" icon-src="/src/assets/Icons/Stack/linux.svg"></app-stack>
