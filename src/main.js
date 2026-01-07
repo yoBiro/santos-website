@@ -4,6 +4,8 @@ import './components/Cards/cardstack.js';
 import './components/Buttons/primarybutton.js';
 import './components/Buttons/secondarybutton.js';
 import './components/Cards/cardimage.js';
+import './features/projects/projectCard.js';
+import './features/projects/projectCarousel.js';
 
 
 // Page load animations
