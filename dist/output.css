@@ -776,7 +776,7 @@ body {
 
 @font-face {
   font-family: 'Instrumental Sans';
-  src: local('Instrumental Sans'), url('/src/assets/fonts/InstrumentalSans.ttf') format('truetype');
+  src: local('Instrumental Sans'), url('/public/fonts/InstrumentalSans.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -784,7 +784,7 @@ body {
 
 @font-face {
   font-family: 'Geist';
-  src: local('Geist'), url('/src/assets/fonts/Geist.ttf') format('truetype');
+  src: local('Geist'), url('/public/fonts/Geist.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -792,7 +792,7 @@ body {
 
 @font-face {
   font-family: 'Geist Mono';
-  src: local('Geist Mono'), url('/src/assets/fonts/GeistMono.ttf') format('truetype');
+  src: local('Geist Mono'), url('/public/fonts/GeistMono.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
