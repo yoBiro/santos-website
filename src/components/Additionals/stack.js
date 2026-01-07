@@ -4,9 +4,9 @@ class Stack extends HTMLElement {
         const iconSrc = this.getAttribute('icon-src');
 
         this.innerHTML = `
-            <div class="flex flex-col items-center justify-center gap-2">
-                    <img src="${iconSrc}" class="w-24 h-24">
-                    <strong class="text-[1.25rem] font-mono font-medium">${label}</strong>
+            <div class="flex flex-col items-center justify-center gap-2 hover:scale-110 transition-transform">
+                    <img src="${iconSrc}" class="w-16 h-16">
+                    <strong class="text-[1rem] font-mono font-medium">${label}</strong>
             </div>
         `;
     }

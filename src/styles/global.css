@@ -5,38 +5,3 @@ body {
 .app-container {
   @apply max-w-7xl mx-auto px-6 md:px-10 lg:px-16;
 }
-
-/* Self-hosted fonts */
-@font-face {
-  font-family: "Instrumental Sans";
-  src: local("Instrumental Sans"), url('/assets/fonts/InstrumentSans-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Instrumental Sans";
-  src: local("Instrumental Sans Italic"), url('/assets/fonts/InstrumentSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Geist";
-  src: local("Geist"), url('/assets/fonts/Geist-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Geist Mono";
-  src: local("Geist Mono"), url('/assets/fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-:root {
-  --font-sans-serif: "Geist", system-ui, sans-serif;
-  --font-sans: "Instrumental Sans", system-ui, sans-serif;
-  --font-mono: "Geist Mono", ui-monospace, monospace;
-}

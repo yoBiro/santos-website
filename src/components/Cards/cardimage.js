@@ -3,7 +3,7 @@ class CardImage extends HTMLElement {
         const imageSrc = this.getAttribute('image-src') || '';
 
         this.innerHTML = `
-            <div class="class="border border-neutral-300 rounded-lg p-8 w-fit">
+            <div class="border border-neutral-300 rounded-lg w-fit h-fit overflow-hidden">
                 <img src="${imageSrc}" alt="${this.getAttribute('image-alt')}" class="w-full h-full object-cover">
             </div>
         `
