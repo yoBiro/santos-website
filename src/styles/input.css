@@ -1,2 +1,12 @@
 @import "tailwindcss";
 @import "./global.css";
+@import "./fonts.css";
+
+/* font-face declarations are in fonts.css */
+
+:root, :host {
+    --font-sans-serif: "Geist", system-ui, sans-serif;
+    --font-sans: "Instrumental Sans", system-ui, sans-serif;
+    --font-mono: "Geist Mono", ui-monospace, monospace;
+}
+

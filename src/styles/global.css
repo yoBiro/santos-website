@@ -5,31 +5,3 @@ body {
 .app-container {
   @apply max-w-7xl mx-auto px-6 md:px-10 lg:px-16;
 }
-
-
-/* Fonts Import */
-@font-face {
-  font-family: "Geist";
-  src: url("/src/fonts/Geist.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Geist Mono";
-  src: url("/src/fonts/GeistMono.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Instrumental Sans";
-  src: url("/src/fonts/InstrumentalSans.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-:root {
-  --font-sans: "Instrumental Sans", "Geist", system-ui, sans-serif;
-  --font-mono: "Geist Mono", ui-monospace, monospace;
-}
