@@ -1,9 +1,8 @@
 import './projectCard.js';
 
-class ProjectsCarousel extends HTMLElement {
+class ProjectsGrid extends HTMLElement {
   connectedCallback() {
-    this.className = 'flex gap-8 justify-center items-center';
-
+    this.classList.add('block');
     // Aguarda DOM estabilizar
     requestAnimationFrame(() => {
       this.cards = Array.from(this.querySelectorAll('project-card'));
@@ -24,4 +23,4 @@ class ProjectsCarousel extends HTMLElement {
   }
 }
 
-customElements.define('projects-carousel', ProjectsCarousel);
+customElements.define('projects-grid', ProjectsGrid);
