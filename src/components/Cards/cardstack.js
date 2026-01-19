@@ -12,13 +12,14 @@ class CardStack extends HTMLElement {
                             <strong class="text-[1.5rem]">Journey</strong>
                             <p class="text-justify text-neutral-700">Trainee Developer passionate about technology. Focused on scalable solutions, software architecture, and paradigms.</p>
                         <div class="flex flex-col gap-3">
-                                <app-primarybutton label="→ View Projects"></app-primarybutton>
-                                <app-secondarybutton label="View Blog" icon-src="https://img.icons8.com/?size=100&id=iGTqSjdkxMJw&format=png&color=000000"></app-secondarybutton>
+                                <app-primarybutton link="/projects.html" label="→ View Projects">
+                                </app-primarybutton>
+                                <app-secondarybutton link="/blog.html" label="View Blog" icon-src="https://img.icons8.com/?size=100&id=iGTqSjdkxMJw&format=png&color=000000"></app-secondarybutton>
                         </div>
                     </div>
                         <div class="flex flex-col gap-8">
-                                <strong class="text-[1.5rem]">Stack</strong>
-                                <div class="grid grid-cols-4 grid-rows-3 gap-6 flex-wrap">
+                            <strong class="text-[1.5rem]">Stack</strong>
+                                <div class="grid grid-cols-4 grid-rows-3 h-fit gap-6">
                                     <app-stack label="VSCode" icon-src="/src/assets/Icons/Stack/vscode.svg"></app-stack>
                                     <app-stack label="IntelliJ" icon-src="/src/assets/Icons/Stack/intellijidea.svg"></app-stack>
                                     <app-stack label="Java" icon-src="/src/assets/Icons/Stack/java.svg"></app-stack>
@@ -32,7 +33,7 @@ class CardStack extends HTMLElement {
                                     <app-stack label="Figma" icon-src="/src/assets/Icons/Stack/figma.svg"></app-stack>
                                     <app-stack label="Vercel" icon-src="/src/assets/Icons/Stack/vercel_dark.svg"></app-stack>
                                 </div>
-                            </div>
+                        </div>
                                 <app-cardimage image-src="/src/assets/Images/image-removebg-preview.png"></app-cardimage>
                 </div>
             </div>

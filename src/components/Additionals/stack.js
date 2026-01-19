@@ -6,7 +6,7 @@ class Stack extends HTMLElement {
         this.innerHTML = `
             <div class="flex flex-col items-center justify-center gap-2 hover:scale-110 transition-transform">
                     <img src="${iconSrc}" class="w-16 h-16">
-                    <strong class="text-[1rem] font-mono font-medium">${label}</strong>
+                    <p class="text-[1rem] font-mono font-normal">${label}</p>
             </div>
         `;
     }
