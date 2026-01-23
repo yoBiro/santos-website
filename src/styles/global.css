@@ -1,7 +1,0 @@
-body {
-  @apply bg-white text-neutral-900 antialiased leading-relaxed;
-}
-
-.app-container {
-  @apply max-w-7xl mx-auto px-6 md:px-10 lg:px-16;
-}
